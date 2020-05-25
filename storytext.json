@@ -1,0 +1,41 @@
+{
+    "menu" : 
+    { 
+  
+       "opening-text" : "There are a few things I can do while I wait.",
+       "options" : [
+        {
+          "title" : "I could play snake on my phone.",
+          "link-word" : "phone",
+          "next-phase" : "snake"
+        },
+        {
+            "title" : "I could text someone.",
+            "link-word" : "text",
+            "next-phase" : "phone"
+        },
+        {
+            "title" : "I could read something online.",
+            "link-word" : "read",
+            "next-phase" : "article"
+        }
+      ]
+    },
+    "snake" : 
+    {
+        "opening-text" : "I pull out my phone and start playing snake.",
+        "options" : [
+            {
+                "title" : "left",
+                "link-word" : "left",
+                "next-phase" : "left"
+            },
+            {
+                "title" : "right",
+                "link-word" : "right",
+                "next-phase" : "right"
+            }
+        ]
+    }
+  }
+
